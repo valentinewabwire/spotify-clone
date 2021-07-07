@@ -5,3 +5,23 @@
   color: white;
   background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 0, 1));
 }
+.body__info {
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+}
+.body__InfoText {
+  flex: 1;
+}
+.body__info > img {
+  height: 30vh;
+  margin: 0 20px;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+.body__InfoText > h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.body__InfoText > p {
+  font-size: 14px;
+}
