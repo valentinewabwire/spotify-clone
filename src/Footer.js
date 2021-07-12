@@ -9,15 +9,17 @@ import PlaylistPlayOutlinedIcon from "@material-ui/icons/PlaylistPlayOutlined";
 import VolumeDownOutlinedIcon from "@material-ui/icons/VolumeDownOutlined";
 import { Slider } from "@material-ui/core";
 import { Grid } from "@material-ui/core";
+import { useDataLayerValue } from "./DataLayer";
 
 function Footer() {
+  const [{ token, item, playing }, dispatch] = useDataLayerValue();
   return (
     <div className="footer">
       <div className="footer__left">
         <img
           className="footer__albumlogo"
-          src="https://pngimg.com/uploads/angelina_jolie/angelina_jolie_PNG45.png"
-          alt=""
+          src={item?.album.images[0].url}
+          alt={item?.name}
         />
         <div className="footer__songInfo">
           <h4>Work Explicit </h4>
