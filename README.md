@@ -1,4 +1,10 @@
 # [Live DEMO](https://spotify-challenge-3ee04.web.app/).
+Demo screenshots 
+![image](https://user-images.githubusercontent.com/53892988/125469025-b9180d9f-5314-4ad9-b7f9-f4cec7fbd5f7.png)
+
+
+![image](https://user-images.githubusercontent.com/53892988/125468578-c5e90db6-a1ce-4595-ba97-78e3fbc730f9.png)
+
 
 # Getting Started with Create React App
 
